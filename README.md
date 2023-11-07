@@ -3,6 +3,8 @@
 This is the repository for playing around with web testing
 Please follow the instructions below to set up the development environment.
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/gvand/testing-it?file=src%2Fcomponents%2FCounter.test.tsx)
+
 ## Dependencies
 
 ### Node.js
