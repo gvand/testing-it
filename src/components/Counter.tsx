@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {Button} from '@/components/ui/button'
-import {Trans} from '@lingui/macro'
+// import {Trans} from '@lingui/macro'
 
 type CounterProps = {
     initialValue?: number
@@ -18,10 +18,12 @@ const Counter: React.FC<CounterProps> = ({ initialValue = 0 }) => {
         <div>
             <h2>Count: {count}</h2>
             <Button onClick={increment}>
-                <Trans>Increment</Trans>
+                Increment
+                {/*<Trans>Increment</Trans>*/}
             </Button>
             <Button onClick={decrement}>
-                <Trans>Decrement</Trans>
+                Decrement
+                {/*<Trans>Decrement</Trans>*/}
             </Button>
         </div>
     )
