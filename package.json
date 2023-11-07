@@ -11,7 +11,7 @@
     "messages:extract": "lingui extract",
     "test": "vitest",
     "test:coverage": "vitest run --coverage",
-    "test:ui": "vitest --ui --coverage.enabled=true",
+    "test:ui": "vitest --ui",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui"
   },
@@ -63,5 +63,8 @@
     "vite": "^4.5.0",
     "vitest": "^0.34.6",
     "whatwg-fetch": "^3.6.19"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
   }
 }
