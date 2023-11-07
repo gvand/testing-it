@@ -13,7 +13,7 @@ const Form: React.FC<FormProps> = ({ onSubmit }) => {
         event.preventDefault()
         onSubmit(inputValue)
         setInputValue('')
-    };
+    }
 
     return (
         <form onSubmit={handleSubmit}>
@@ -27,5 +27,7 @@ const Form: React.FC<FormProps> = ({ onSubmit }) => {
         </form>
     )
 }
+
+Form.displayName = 'Form'
 
 export default Form

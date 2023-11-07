@@ -24,7 +24,9 @@ const Counter: React.FC<CounterProps> = ({ initialValue = 0 }) => {
                 <Trans>Decrement</Trans>
             </Button>
         </div>
-    );
-};
+    )
+}
+
+Counter.displayName = 'Counter'
 
 export default Counter
